@@ -1,45 +1,225 @@
-v1a	A	C	B	E	D
-v1b	A	C	B	E	D
-v1c	A	C	B	E	D
-v1d	A	C	B	E	D
-v1e	A	C	B	E	D
-v2a	A	D	E	C	B
-v2b	A	D	E	C	B
-v2c	A	D	E	C	B
-v2d	A	D	E	C	B
-v2e	A	D	E	C	B
-v3a	B	E	D	A	C
-v3b	B	E	D	A	C
-v3c	B	E	D	A	C
-v3d	B	E	D	A	C
-v3e	B	E	D	A	C
-v3f	B	E	D	A	C
-v3g	B	E	D	A	C
-v3h	B	E	D	A	C
-v4a	C	A	B	E	D
-v4b	C	A	B	E	D
-v4c	C	A	B	E	D
-v5a	C	A	E	B	D
-v5b	C	A	E	B	D
-v5c	C	A	E	B	D
-v5d	C	A	E	B	D
-v5e	C	A	E	B	D
-v5f	C	A	E	B	D
-v5g	C	A	E	B	D
-v6a	C	B	A	D	E
-v6b	C	B	A	D	E
-v7a	D	C	E	B	A
-v7b	D	C	E	B	A
-v7c	D	C	E	B	A
-v7d	D	C	E	B	A
-v7e	D	C	E	B	A
-v7f	D	C	E	B	A
-v7g	D	C	E	B	A
-v8a	E	B	A	D	C
-v8b	E	B	A	D	C
-v8c	E	B	A	D	C
-v8d	E	B	A	D	C
-v8e	E	B	A	D	C
-v8f	E	B	A	D	C
-v8g	E	B	A	D	C
-v8h	E	B	A	D	C
+v1a	A	1
+v1a	C	2
+v1a	B	3
+v1a	E	4
+v1a	D	5
+v1b	A	1
+v1b	C	2
+v1b	B	3
+v1b	E	4
+v1b	D	5
+v1c	A	1
+v1c	C	2
+v1c	B	3
+v1c	E	4
+v1c	D	5
+v1d	A	1
+v1d	C	2
+v1d	B	3
+v1d	E	4
+v1d	D	5
+v1e	A	1
+v1e	C	2
+v1e	B	3
+v1e	E	4
+v1e	D	5
+v2a	A	1
+v2a	D	2
+v2a	E	3
+v2a	C	4
+v2a	B	5
+v2b	A	1
+v2b	D	2
+v2b	E	3
+v2b	C	4
+v2b	B	5
+v2c	A	1
+v2c	D	2
+v2c	E	3
+v2c	C	4
+v2c	B	5
+v2d	A	1
+v2d	D	2
+v2d	E	3
+v2d	C	4
+v2d	B	5
+v2e	A	1
+v2e	D	2
+v2e	E	3
+v2e	C	4
+v2e	B	5
+v3a	B	1
+v3a	E	2
+v3a	D	3
+v3a	A	4
+v3a	C	5
+v3b	B	1
+v3b	E	2
+v3b	D	3
+v3b	A	4
+v3b	C	5
+v3c	B	1
+v3c	E	2
+v3c	D	3
+v3c	A	4
+v3c	C	5
+v3d	B	1
+v3d	E	2
+v3d	D	3
+v3d	A	4
+v3d	C	5
+v3e	B	1
+v3e	E	2
+v3e	D	3
+v3e	A	4
+v3e	C	5
+v3f	B	1
+v3f	E	2
+v3f	D	3
+v3f	A	4
+v3f	C	5
+v3g	B	1
+v3g	E	2
+v3g	D	3
+v3g	A	4
+v3g	C	5
+v3h	B	1
+v3h	E	2
+v3h	D	3
+v3h	A	4
+v3h	C	5
+v4a	C	1
+v4a	A	2
+v4a	B	3
+v4a	E	4
+v4a	D	5
+v4b	C	1
+v4b	A	2
+v4b	B	3
+v4b	E	4
+v4b	D	5
+v4c	C	1
+v4c	A	2
+v4c	B	3
+v4c	E	4
+v4c	D	5
+v5a	C	1
+v5a	A	2
+v5a	E	3
+v5a	B	4
+v5a	D	5
+v5b	C	1
+v5b	A	2
+v5b	E	3
+v5b	B	4
+v5b	D	5
+v5c	C	1
+v5c	A	2
+v5c	E	3
+v5c	B	4
+v5c	D	5
+v5d	C	1
+v5d	A	2
+v5d	E	3
+v5d	B	4
+v5d	D	5
+v5e	C	1
+v5e	A	2
+v5e	E	3
+v5e	B	4
+v5e	D	5
+v5f	C	1
+v5f	A	2
+v5f	E	3
+v5f	B	4
+v5f	D	5
+v5g	C	1
+v5g	A	2
+v5g	E	3
+v5g	B	4
+v5g	D	5
+v6a	C	1
+v6a	B	2
+v6a	A	3
+v6a	D	4
+v6a	E	5
+v6b	C	1
+v6b	B	2
+v6b	A	3
+v6b	D	4
+v6b	E	5
+v7a	D	1
+v7a	C	2
+v7a	E	3
+v7a	B	4
+v7a	A	5
+v7b	D	1
+v7b	C	2
+v7b	E	3
+v7b	B	4
+v7b	A	5
+v7c	D	1
+v7c	C	2
+v7c	E	3
+v7c	B	4
+v7c	A	5
+v7d	D	1
+v7d	C	2
+v7d	E	3
+v7d	B	4
+v7d	A	5
+v7e	D	1
+v7e	C	2
+v7e	E	3
+v7e	B	4
+v7e	A	5
+v7f	D	1
+v7f	C	2
+v7f	E	3
+v7f	B	4
+v7f	A	5
+v7g	D	1
+v7g	C	2
+v7g	E	3
+v7g	B	4
+v7g	A	5
+v8a	E	1
+v8a	B	2
+v8a	A	3
+v8a	D	4
+v8a	C	5
+v8b	E	1
+v8b	B	2
+v8b	A	3
+v8b	D	4
+v8b	C	5
+v8c	E	1
+v8c	B	2
+v8c	A	3
+v8c	D	4
+v8c	C	5
+v8d	E	1
+v8d	B	2
+v8d	A	3
+v8d	D	4
+v8d	C	5
+v8e	E	1
+v8e	B	2
+v8e	A	3
+v8e	D	4
+v8e	C	5
+v8f	E	1
+v8f	B	2
+v8f	A	3
+v8f	D	4
+v8f	C	5
+v8g	E	1
+v8g	B	2
+v8g	A	3
+v8g	D	4
+v8g	C	5
+v8h	E	1
+v8h	B	2
+v8h	A	3
+v8h	D	4
+v8h	C	5
