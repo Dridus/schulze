@@ -5,10 +5,11 @@ import           Control.Arrow (first)
 import qualified Control.Monad as Monad
 import           Control.Monad.State.Lazy (State)
 import qualified Control.Monad.State.Lazy as State
+import           Control.Monad.Trans.Resource (runResourceT)
 import           Control.Monad.Unicode ((≫=), (≫))
 import           Data.Bool (not)
 import           Data.Bool.Unicode ((∧))
-import           Data.Conduit (($$), ($=), runResourceT)
+import           Data.Conduit (($$), ($=))
 import           Data.Conduit.Binary (sourceFile)
 import qualified Data.Conduit.List as CL
 import           Data.Conduit.Text as CT
@@ -33,7 +34,7 @@ import           Data.String (String)
 import           Data.Text (Text)
 import qualified Data.Text as Text
 import           Data.Tuple (snd, swap)
-import           Prelude ((+), (-), error, min, max, maxBound, otherwise)
+import           Prelude ((+), (-), error, min, max, maxBound)
 import           System.Environment (getArgs)
 import           System.IO (IO, putStrLn)
 import           Text.Read (readEither)
